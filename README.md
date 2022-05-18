@@ -27,6 +27,7 @@ I am trying to use python to run those methods, including traditional and deep l
 ## 2. Iteration + VST+BM3D (PythonVersion) 
 ### 2.1 Relative Information
 [Variance Stabilization for Noisy+Estimate Combination in Iterative Poisson Denoising](https://ieeexplore.ieee.org/abstract/document/7491301)
+```
 @article{azzari2016variance,
   title={Variance stabilization for noisy+ estimate combination in iterative poisson denoising},
   author={Azzari, Lucio and Foi, Alessandro},
@@ -37,6 +38,7 @@ I am trying to use python to run those methods, including traditional and deep l
   year={2016},
   publisher={IEEE}
 }
+```
 ### 2.2 How to run codes
 modifying file named "pythonversion/pythondemo.py"
 
@@ -47,6 +49,7 @@ Matlab writes basic denoising codes, and Datasets making are written by python.
 ### 5.1 Relative Information
 [A new bayesian Poisson denoising algorithm based on nonlocal means 
 and stochastic distances](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005434)
+```
 @article{evangelista2022new,
   title={A new bayesian Poisson denoising algorithm based on nonlocal means and stochastic distances},
   author={Evangelista, Rodrigo C and Salvadeo, Denis HP and Mascarenhas, Nelson DA},
@@ -56,6 +59,7 @@ and stochastic distances](https://www.sciencedirect.com/science/article/abs/pii/
   year={2022},
   publisher={Elsevier}
 }
+```
 ### 5.2  How to run codes
 
 run a file named "pythonversion.py"
