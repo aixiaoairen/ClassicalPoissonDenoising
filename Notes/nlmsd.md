@@ -1,5 +1,7 @@
 # A new bayesian Poisson denoising algorithm based on nonlocal means and stochastic distance
 
+[GitHub](https://github.com/aixiaoairen/ClassicalPoissonDenoising/tree/master/nlmsd)
+
 ## Abstract
 
  泊松噪声是许多成像方式退化的主要原因。然而，许多已提出的用于降低图像噪声的方法缺少正式的方法，本文基于非局部均值框架，用更适合于去噪问题的随机距离代替欧式距离，提出了一种新的、通用的、形式化的、计算高效的贝叶斯泊松去噪算法。**利用泊松分布和伽马分布的共轭性来提高计算效率**。在处理低剂量CT图像时，该算法对**正弦图**进行运算，利用**伽马分布**对**泊松噪声率**进行**建模**。基于**贝叶斯公式**和**共轭性质**，**似然**服从**泊松分布**，**先验概率分布**也服从**伽马分布**。将该算法应用于模拟和真实的低剂量CT图像。
