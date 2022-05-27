@@ -47,6 +47,17 @@ Matlab writes basic denoising codes, and Datasets making are written by python.
 
 ## 3. snldp
 ### 3.1 Relative Information
+[Simultaneous Nonlocal Low-Rank And Deep Priors For Poisson Denoising](https://ieeexplore.ieee.org/abstract/document/9746870/)
+```
+@inproceedings{zha2022simultaneous,
+  title={Simultaneous Nonlocal Low-Rank And Deep Priors For Poisson Denoising},
+  author={Zha, Zhiyuan and Wen, Bihan and Yuan, Xin and Zhou, Jiantao and Zhu, Ce},
+  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={2320--2324},
+  year={2022},
+  organization={IEEE}
+}
+```
 ### 3.2 How to run
 I modify some codes about image sets and peak-setting. **I did not make any changes to the core algorithm**.
 
