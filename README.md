@@ -45,6 +45,22 @@ modifying file named "pythonversion/pythondemo.py"
 Matlab writes basic denoising codes, and Datasets making are written by python.
 **Note**: You should install "~/Matlab/extern/engines/python/steup.py". This is an essential step for the combination of python and Matlab
 
+## 3. snldp
+### 3.1 Relative Information
+### 3.2 How to run
+I modify some codes about image sets and peak-setting. **I did not make any changes to the core algorithm**.
+
+#### 1. Change Test Images Sets
+- Put your test images under a folder named "Test_Images"
+- Modify the variables named **nums, diroutput** in "SNLDP_Poisson_Denoising_Demo.m" line 83, 85
+- Otherwise : you could note "SNLDP_Poisson_Test.m"
+#### 2. Run (CPU Mode)
+In Matlab command, Input:
+```matlab
+run matconvnet-1.0-beta25\matlab\vl_setupnn;
+mex -setup ; % choose mex -setup C++
+vl_compilenn ;
+```
 ## 5. nlmsd
 ### 5.1 Relative Information
 [A new bayesian Poisson denoising algorithm based on nonlocal means 
